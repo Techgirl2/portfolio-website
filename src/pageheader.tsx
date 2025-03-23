@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import Logo from "/Logo.svg";
 
 const PageHeader: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ const PageHeader: React.FC = () => {
     <header className="bg-[#18424E] text-white flex justify-between items-center px-6 py-4 shadow-md border-b-4 border-[#D9D9D9]/90 relative">
       {/* Directly using the logo */}
       <button>
-        <img src="/Logo.svg" alt="AC Logo" className="w-10 h-6" />
+        <img src={Logo} alt="AC Logo" className="w-10 h-6" />
       </button>
 
       {/* Desktop Menu */}
