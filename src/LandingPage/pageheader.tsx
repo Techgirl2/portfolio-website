@@ -38,7 +38,7 @@ const PageHeader: React.FC = () => {
 
       {/* Mobile Menu with Smooth Transition */}
       <div
-        className={`absolute top-16 left-0 w-full bg-[#18424E] flex flex-col items-center space-y-4 py-4 pb-8 md:hidden border-b-4 border-[#D9D9D9]/90 transform transition-all duration-300 ease-in-out ${
+        className={`absolute top-16 left-0 w-full bg-[#032527] flex flex-col items-center space-y-4 py-4 pb-8 md:hidden border-b-4 border-[#D9D9D9] z-50 transform transition-all duration-300 ease-in-out ${
           isMobileMenuOpen ? 'translate-y-0 opacity-100' : '-translate-y-4 opacity-0 pointer-events-none'
         }`}
       >
