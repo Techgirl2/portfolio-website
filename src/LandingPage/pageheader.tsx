@@ -8,7 +8,7 @@ const PageHeader: React.FC = () => {
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
   return (
-    <header className="bg-[#18424E] text-white flex justify-between items-center px-6 py-4 shadow-md border-b-4 border-[#D9D9D9]/90 relative">
+    <header className="text-white flex justify-between items-center px-6 py-4 shadow-md border-b-4 border-[#D9D9D9]/90 relative">
       {/* Directly using the logo */}
       <button>
         <img src={Logo} alt="AC Logo" className="w-10 h-6" />

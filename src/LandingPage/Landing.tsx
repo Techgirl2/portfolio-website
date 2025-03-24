@@ -1,13 +1,13 @@
 import PageHeader from "./pageheader";
 import Pic from "/Pic.svg";
-import Background from "/Background.svg";
+import BackgroundPractice from "/BackgroundPractice.svg";
 import star from "/star.svg";
 
 export default function LandingPage() {
   return (
     <div
       className="relative w-full h-screen bg-cover bg-center bg-no-repeat flex flex-col"
-      style={{ backgroundImage: `url(${Background})` }}
+      style={{ backgroundImage: `url(${BackgroundPractice})` }}
     >
       {/* Page Header */}
       <PageHeader />
@@ -34,7 +34,7 @@ export default function LandingPage() {
           <img
             src={Pic}
             alt="Profile"
-            className="w-72 h-72 bg-[#053336] md:w-72 md:h-72 lg:w-96 lg:h-96 rounded-[20%] shadow-lg object-contain mx-auto"
+            className="w-72 h-72 bg-[#032527] md:w-72 md:h-72 lg:w-96 lg:h-96 rounded-[20%] shadow-lg object-contain mx-auto"
           />
           {/* Optional Decorative Stars */}
           <div className="absolute top-0 left-0 transform -translate-x-1 -translate-y-1">
