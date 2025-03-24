@@ -23,9 +23,9 @@ export default function LandingPage() {
   }, []);
 
   // Motion values based on section height
-  const bgY = useTransform(scrollY, [0, sectionHeight], ["0%", "-10%"], { clamp: true });
-  const textY = useTransform(scrollY, [0, sectionHeight], ["0px", "50px"], { clamp: true });
-  const imageY = useTransform(scrollY, [0, sectionHeight], ["0px", "30px"], { clamp: true });
+  const bgY = useTransform(scrollY, [0, sectionHeight], ["0%", "0%"], { clamp: true });
+  const textY = useTransform(scrollY, [0, sectionHeight], ["0px", "100px"], { clamp: true });
+  const imageY = useTransform(scrollY, [0, sectionHeight], ["0px", "100px"], { clamp: true });
 
   return (
     <div ref={sectionRef} className="relative w-full min-h-screen flex flex-col overflow-hidden">
